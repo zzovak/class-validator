@@ -17,7 +17,7 @@ import {
   ValidationOptions,
   ValidatorConstraintInterface,
 } from '../../src';
-import exp from "constants";
+import exp from 'constants';
 
 const validator = new Validator();
 
@@ -162,29 +162,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {
@@ -241,29 +241,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {
@@ -353,29 +353,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {
@@ -438,29 +438,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {
@@ -562,29 +562,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: "each value in someProperty must contain a hello string"
+            message: 'each value in someProperty must contain a hello string',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {
@@ -651,29 +651,29 @@ describe('each', () => {
           {
             index: 0,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 1,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 2,
             valid: false,
-            message: ""
+            message: '',
           },
           {
             index: 3,
             valid: true,
-            message: ""
+            message: '',
           },
           {
             index: 4,
             valid: true,
-            message: ""
+            message: '',
           },
-        ]
+        ],
       };
 
       return validator.validate(model).then(errors => {

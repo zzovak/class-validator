@@ -25,7 +25,7 @@ export class ValidationError {
    * Constraints that failed validation with error messages.
    */
   constraints?: {
-    [type: string]: string | {index: number, valid: boolean, message: string}[];
+    [type: string]: string | { index: number; valid: boolean; message: string }[];
   };
 
   /**

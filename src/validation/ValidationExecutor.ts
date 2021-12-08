@@ -8,7 +8,6 @@ import { ValidationArguments } from './ValidationArguments';
 import { ValidationUtils } from './ValidationUtils';
 import { isPromise, convertToArray } from '../utils';
 import { getMetadataStorage } from '../metadata/MetadataStorage';
-import {type} from "os";
 
 /**
  * Executes validation over given object.
@@ -326,23 +325,22 @@ export class ValidationExecutor {
         }
 
         if (metadata.each) {
-          const validationResult = (validatedSubValues as boolean[]).every((isValid: boolean) => isValid)
+          const validationResult = (validatedSubValues as boolean[]).every((isValid: boolean) => isValid);
           if (!validationResult) {
             const [type, message] = this.createValidationError(object, value, metadata, customConstraintMetadata);
-            error.constraints[type] = (validatedSubValues as boolean[])
-              .map((value: boolean, index) => value ?
-                {
-                  index,
-                  valid: value,
-                  message: ""
-                }
-                :
-                {
-                  index,
-                  valid: value,
-                  message: message
-                }
-              )
+            error.constraints[type] = (validatedSubValues as boolean[]).map((value: boolean, index) =>
+              value
+                ? {
+                    index,
+                    valid: value,
+                    message: '',
+                  }
+                : {
+                    index,
+                    valid: value,
+                    message: message,
+                  }
+            );
           }
         } else {
           const validationResult = (validatedSubValues as boolean[]).every((isValid: boolean) => isValid);
