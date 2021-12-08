@@ -17,6 +17,7 @@ import {
   ValidationOptions,
   ValidatorConstraintInterface,
 } from '../../src';
+import exp from "constants";
 
 const validator = new Validator();
 
@@ -155,9 +156,40 @@ describe('each', () => {
 
       const model = new MyClass();
       model.someProperty = ['hell no world', 'hello', 'helo world', 'hello world', 'hello dear friend'];
+
+      const expected = {
+        contains: [
+          {
+            index: 0,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ contains: 'each value in someProperty must contain a hello string' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
@@ -203,9 +235,40 @@ describe('each', () => {
 
       const model = new MyClass();
       model.someProperty = ['hell no world', 'hello', 'helo world', 'hello world', 'hello dear friend'];
+
+      const expected = {
+        customContainsHelloConstraint: [
+          {
+            index: 0,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ customContainsHelloConstraint: '' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
@@ -284,9 +347,40 @@ describe('each', () => {
         'hello world',
         'hello dear friend',
       ]);
+
+      const expected = {
+        contains: [
+          {
+            index: 0,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ contains: 'each value in someProperty must contain a hello string' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
@@ -338,9 +432,40 @@ describe('each', () => {
         'hello world',
         'hello dear friend',
       ]);
+
+      const expected = {
+        customContainsHelloConstraint: [
+          {
+            index: 0,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ customContainsHelloConstraint: '' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
@@ -431,9 +556,40 @@ describe('each', () => {
         ['key4', 'hello world'],
         ['key5', 'hello dear friend'],
       ]);
+
+      const expected = {
+        contains: [
+          {
+            index: 0,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: "each value in someProperty must contain a hello string"
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ contains: 'each value in someProperty must contain a hello string' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
@@ -489,9 +645,40 @@ describe('each', () => {
         ['key4', 'hello world'],
         ['key5', 'hello dear friend'],
       ]);
+
+      const expected = {
+        customContainsHelloConstraint: [
+          {
+            index: 0,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 1,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 2,
+            valid: false,
+            message: ""
+          },
+          {
+            index: 3,
+            valid: true,
+            message: ""
+          },
+          {
+            index: 4,
+            valid: true,
+            message: ""
+          },
+        ]
+      };
+
       return validator.validate(model).then(errors => {
         expect(errors.length).toEqual(1);
-        expect(errors[0].constraints).toEqual({ customContainsHelloConstraint: '' });
+        expect(errors[0].constraints).toEqual(expected);
         expect(errors[0].value).toEqual(model.someProperty);
         expect(errors[0].target).toEqual(model);
         expect(errors[0].property).toEqual('someProperty');
