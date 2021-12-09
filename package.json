@@ -20,7 +20,7 @@
     "typescript"
   ],
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "@zzovak:registry":"https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "npm run build:cjs",
