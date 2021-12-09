@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const MIN_DATE = "minDate";
+export declare const MIN_DATE = 'minDate';
 /**
  * Checks if the value is a date that's after the specified date.
  */

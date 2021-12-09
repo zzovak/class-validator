@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_LATLONG = "isLatLong";
+export declare const IS_LATLONG = 'isLatLong';
 /**
  * Checks if a value is string in format a "latitude,longitude".
  */

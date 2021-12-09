@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_LONGITUDE = "isLongitude";
+export declare const IS_LONGITUDE = 'isLongitude';
 /**
  * Checks if a given value is a longitude.
  */

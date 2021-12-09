@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_PORT = "isPort";
+export declare const IS_PORT = 'isPort';
 /**
  * Check if the string is a valid port number.
  */

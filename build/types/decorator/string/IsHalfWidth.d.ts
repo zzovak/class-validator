@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_HALF_WIDTH = "isHalfWidth";
+export declare const IS_HALF_WIDTH = 'isHalfWidth';
 /**
  * Checks if the string contains any half-width chars.
  * If given value is not a string, then it returns false.

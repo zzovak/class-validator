@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const EQUALS = "equals";
+export declare const EQUALS = 'equals';
 /**
  * Checks if value matches ("===") the comparison.
  */

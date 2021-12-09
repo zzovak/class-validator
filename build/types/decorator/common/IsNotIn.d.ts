@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_NOT_IN = "isNotIn";
+export declare const IS_NOT_IN = 'isNotIn';
 /**
  * Checks if given value not in a array of allowed values.
  */

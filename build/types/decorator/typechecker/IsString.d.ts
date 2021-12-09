@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_STRING = "isString";
+export declare const IS_STRING = 'isString';
 /**
  * Checks if a given value is a real string.
  */

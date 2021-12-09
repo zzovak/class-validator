@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_VARIABLE_WIDTH = "isVariableWidth";
+export declare const IS_VARIABLE_WIDTH = 'isVariableWidth';
 /**
  * Checks if the string contains variable-width chars.
  * If given value is not a string, then it returns false.

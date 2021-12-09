@@ -20,7 +20,11 @@ export declare function validate(object: object, validatorOptions?: ValidatorOpt
 /**
  * Validates given object by a given validation schema.
  */
-export declare function validate(schemaName: string, object: object, validatorOptions?: ValidatorOptions): Promise<ValidationError[]>;
+export declare function validate(
+  schemaName: string,
+  object: object,
+  validatorOptions?: ValidatorOptions
+): Promise<ValidationError[]>;
 /**
  * Validates given object and reject on error.
  */
@@ -28,7 +32,11 @@ export declare function validateOrReject(object: object, validatorOptions?: Vali
 /**
  * Validates given object by a given validation schema and reject on error.
  */
-export declare function validateOrReject(schemaName: string, object: object, validatorOptions?: ValidatorOptions): Promise<void>;
+export declare function validateOrReject(
+  schemaName: string,
+  object: object,
+  validatorOptions?: ValidatorOptions
+): Promise<void>;
 /**
  * Performs sync validation of the given object.
  * Note that this method completely ignores async validations.
@@ -40,7 +48,11 @@ export declare function validateSync(object: object, validatorOptions?: Validato
  * Note that this method completely ignores async validations.
  * If you want to properly perform validation you need to call validate method instead.
  */
-export declare function validateSync(schemaName: string, object: object, validatorOptions?: ValidatorOptions): ValidationError[];
+export declare function validateSync(
+  schemaName: string,
+  object: object,
+  validatorOptions?: ValidatorOptions
+): ValidationError[];
 /**
  * Registers a new validation schema.
  */

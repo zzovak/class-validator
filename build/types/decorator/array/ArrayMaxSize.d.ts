@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const ARRAY_MAX_SIZE = "arrayMaxSize";
+export declare const ARRAY_MAX_SIZE = 'arrayMaxSize';
 /**
  * Checks if the array's length is less or equal to the specified number.
  * If null or undefined is given then this function returns false.

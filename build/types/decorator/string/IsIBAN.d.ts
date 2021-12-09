@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_IBAN = "isIBAN";
+export declare const IS_IBAN = 'isIBAN';
 /**
  * Check if a string is a IBAN (International Bank Account Number).
  * If given value is not a string, then it returns false.

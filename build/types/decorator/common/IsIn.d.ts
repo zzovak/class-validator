@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_IN = "isIn";
+export declare const IS_IN = 'isIn';
 /**
  * Checks if given value is in a array of allowed values.
  */

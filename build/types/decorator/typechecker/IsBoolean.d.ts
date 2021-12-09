@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_BOOLEAN = "isBoolean";
+export declare const IS_BOOLEAN = 'isBoolean';
 /**
  * Checks if a given value is a boolean.
  */

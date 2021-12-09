@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_RFC_3339 = "isRFC3339";
+export declare const IS_RFC_3339 = 'isRFC3339';
 /**
  * Check if the string is a valid RFC 3339 date.
  * If given value is not a string, then it returns false.

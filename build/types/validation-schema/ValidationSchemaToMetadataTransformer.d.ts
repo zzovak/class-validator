@@ -4,5 +4,5 @@ import { ValidationMetadata } from '../metadata/ValidationMetadata';
  * Used to transform validation schemas to validation metadatas.
  */
 export declare class ValidationSchemaToMetadataTransformer {
-    transform(schema: ValidationSchema): ValidationMetadata[];
+  transform(schema: ValidationSchema): ValidationMetadata[];
 }

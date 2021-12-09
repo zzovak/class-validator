@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_MIME_TYPE = "isMimeType";
+export declare const IS_MIME_TYPE = 'isMimeType';
 /**
  * Check if the string matches to a valid MIME type format
  * If given value is not a string, then it returns false.

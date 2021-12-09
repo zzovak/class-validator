@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_CREDIT_CARD = "isCreditCard";
+export declare const IS_CREDIT_CARD = 'isCreditCard';
 /**
  * Checks if the string is a credit card.
  * If given value is not a string, then it returns false.

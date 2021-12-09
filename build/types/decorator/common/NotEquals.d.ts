@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const NOT_EQUALS = "notEquals";
+export declare const NOT_EQUALS = 'notEquals';
 /**
  * Checks if value does not match ("!==") the comparison.
  */

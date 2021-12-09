@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_DIVISIBLE_BY = "isDivisibleBy";
+export declare const IS_DIVISIBLE_BY = 'isDivisibleBy';
 /**
  * Checks if value is a number that's divisible by another.
  */

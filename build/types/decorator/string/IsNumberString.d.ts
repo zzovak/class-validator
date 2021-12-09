@@ -1,6 +1,6 @@
 import { ValidationOptions } from '../ValidationOptions';
 import ValidatorJS from 'validator';
-export declare const IS_NUMBER_STRING = "isNumberString";
+export declare const IS_NUMBER_STRING = 'isNumberString';
 /**
  * Checks if the string is numeric.
  * If given value is not a string, then it returns false.
@@ -10,4 +10,7 @@ export declare function isNumberString(value: unknown, options?: ValidatorJS.IsN
  * Checks if the string is numeric.
  * If given value is not a string, then it returns false.
  */
-export declare function IsNumberString(options?: ValidatorJS.IsNumericOptions, validationOptions?: ValidationOptions): PropertyDecorator;
+export declare function IsNumberString(
+  options?: ValidatorJS.IsNumericOptions,
+  validationOptions?: ValidationOptions
+): PropertyDecorator;

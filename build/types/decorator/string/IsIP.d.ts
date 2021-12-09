@@ -1,6 +1,6 @@
 import { ValidationOptions } from '../ValidationOptions';
 export declare type IsIpVersion = '4' | '6' | 4 | 6;
-export declare const IS_IP = "isIp";
+export declare const IS_IP = 'isIp';
 /**
  * Checks if the string is an IP (version 4 or 6).
  * If given value is not a string, then it returns false.

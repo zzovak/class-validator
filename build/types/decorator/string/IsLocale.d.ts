@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_LOCALE = "isLocale";
+export declare const IS_LOCALE = 'isLocale';
 /**
  * Check if the string is a locale.
  * If given value is not a string, then it returns false.
