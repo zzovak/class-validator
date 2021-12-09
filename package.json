@@ -1,6 +1,6 @@
 {
   "name": "class-validator",
-  "version": "0.13.2",
+  "version": "0.13.2-item-in-array",
   "description": "Decorator-based property validation for classes.",
   "author": "TypeStack contributors",
   "license": "MIT",
@@ -19,6 +19,9 @@
     "decorators",
     "typescript"
   ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "npm run build:cjs",
     "build:clean": "rimraf build",
