@@ -36,7 +36,8 @@
     "lint:check": "eslint --max-warnings 0 --ext .ts src/",
     "test": "jest --coverage --verbose",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand --no-cache --coverage --verbose"
+    "test:ci": "jest --runInBand --no-cache --coverage --verbose",
+    "postinstall": "mv /build/* ./ && rm -rf build .github coverage docs sample src test .eslintrc.yml .gitbook.yaml .gitignore .npmrc .prettierrc.yml CHANGELOG.md class-validator-0.13.2-item-in-array.tgz codecov.yml jest.config.js rollup.config.js tsconfig.*"
   },
   "dependencies": {
     "libphonenumber-js": "^1.9.44",
