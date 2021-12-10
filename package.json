@@ -37,7 +37,6 @@
     "test": "jest --coverage --verbose",
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand --no-cache --coverage --verbose",
-    "postinstall": "mv /node_modules/class-validator/build/* /node_modules/class-validator/ && rm -rf /node_modules/class-validator/build /node_modules/class-validator/.github /node_modules/class-validator/coverage /node_modules/class-validator/docs /node_modules/class-validator/sample /node_modules/class-validator/src /node_modules/class-validator/test /node_modules/class-validator/.eslintrc.yml /node_modules/class-validator/.gitbook.yaml /node_modules/class-validator/.gitignore /node_modules/class-validator/.npmrc /node_modules/class-validator/.prettierrc.yml /node_modules/class-validator/CHANGELOG.md /node_modules/class-validator/class-validator-0.13.2-item-in-array.tgz /node_modules/class-validator/codecov.yml /node_modules/class-validator/jest.config.js /node_modules/class-validator/rollup.config.js /node_modules/class-validator/tsconfig.*"
   },
   "dependencies": {
     "libphonenumber-js": "^1.9.44",
