@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_ARRAY = 'isArray';
+export declare const IS_ARRAY = "isArray";
 /**
  * Checks if a given value is an array
  */

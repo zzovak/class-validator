@@ -1,6 +1,6 @@
 import { ValidationOptions } from '../ValidationOptions';
 import { CountryCode } from 'libphonenumber-js';
-export declare const IS_PHONE_NUMBER = 'isPhoneNumber';
+export declare const IS_PHONE_NUMBER = "isPhoneNumber";
 /**
  * Checks if the string is a valid phone number. To successfully validate any phone number the text must include
  * the intl. calling code, if the calling code wont be provided then the region must be set.

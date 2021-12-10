@@ -1,12 +1,12 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_NUMBER = 'isNumber';
+export declare const IS_NUMBER = "isNumber";
 /**
  * Options to be passed to IsNumber decorator.
  */
 export interface IsNumberOptions {
-  allowNaN?: boolean;
-  allowInfinity?: boolean;
-  maxDecimalPlaces?: number;
+    allowNaN?: boolean;
+    allowInfinity?: boolean;
+    maxDecimalPlaces?: number;
 }
 /**
  * Checks if a given value is a number.

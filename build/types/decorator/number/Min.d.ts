@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const MIN = 'min';
+export declare const MIN = "min";
 /**
  * Checks if the first number is greater than or equal to the second.
  */

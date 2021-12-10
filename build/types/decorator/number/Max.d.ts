@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const MAX = 'max';
+export declare const MAX = "max";
 /**
  * Checks if the first number is less than or equal to the second.
  */

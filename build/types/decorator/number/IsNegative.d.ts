@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_NEGATIVE = 'isNegative';
+export declare const IS_NEGATIVE = "isNegative";
 /**
  * Checks if the value is a negative number smaller than zero.
  */

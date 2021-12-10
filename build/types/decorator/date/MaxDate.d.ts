@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const MAX_DATE = 'maxDate';
+export declare const MAX_DATE = "maxDate";
 /**
  * Checks if the value is a date that's before the specified date.
  */

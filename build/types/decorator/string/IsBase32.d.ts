@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_BASE32 = 'isBase32';
+export declare const IS_BASE32 = "isBase32";
 /**
  * Checks if a string is base32 encoded.
  * If given value is not a string, then it returns false.

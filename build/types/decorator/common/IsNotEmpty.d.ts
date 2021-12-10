@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_NOT_EMPTY = 'isNotEmpty';
+export declare const IS_NOT_EMPTY = "isNotEmpty";
 /**
  * Checks if given value is not empty (!== '', !== null, !== undefined).
  */

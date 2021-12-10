@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_INT = 'isInt';
+export declare const IS_INT = "isInt";
 /**
  * Checks if value is an integer.
  */

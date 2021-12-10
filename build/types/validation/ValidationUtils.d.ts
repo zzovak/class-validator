@@ -4,8 +4,5 @@ import { ValidationArguments } from './ValidationArguments';
  */
 export declare function constraintToString(constraint: unknown): string;
 export declare class ValidationUtils {
-  static replaceMessageSpecialTokens(
-    message: string | ((args: ValidationArguments) => string),
-    validationArguments: ValidationArguments
-  ): string;
+    static replaceMessageSpecialTokens(message: string | ((args: ValidationArguments) => string), validationArguments: ValidationArguments): string;
 }

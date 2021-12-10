@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const ARRAY_CONTAINS = 'arrayContains';
+export declare const ARRAY_CONTAINS = "arrayContains";
 /**
  * Checks if array contains all values from the given array of values.
  * If null or undefined is given then this function returns false.

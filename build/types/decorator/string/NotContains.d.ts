@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const NOT_CONTAINS = 'notContains';
+export declare const NOT_CONTAINS = "notContains";
 /**
  * Checks if the string does not contain the seed.
  * If given value is not a string, then it returns false.

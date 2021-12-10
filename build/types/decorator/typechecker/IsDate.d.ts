@@ -1,5 +1,5 @@
 import { ValidationOptions } from '../ValidationOptions';
-export declare const IS_DATE = 'isDate';
+export declare const IS_DATE = "isDate";
 /**
  * Checks if a given value is a date.
  */
